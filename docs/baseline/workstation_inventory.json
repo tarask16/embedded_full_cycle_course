@@ -1,0 +1,95 @@
+﻿{
+    "CapturedAt":  "2026-07-26T17:29:13+03:00",
+    "OperatingSystem":  {
+                            "Name":  "Майкрософт Windows 11 Pro для рабочих станций",
+                            "Version":  "10.0.26200",
+                            "Build":  "26200",
+                            "Architecture":  "64-разрядная"
+                        },
+    "Hardware":  {
+                     "Processor":  "AMD Ryzen 7 7730U with Radeon Graphics",
+                     "PhysicalCores":  8,
+                     "LogicalProcessors":  16,
+                     "RamGiB":  15.4
+                 },
+    "Shell":  {
+                  "PowerShellVersion":  "5.1.26100.8875",
+                  "PowerShellEdition":  "Desktop"
+              },
+    "RegionalSettings":  {
+                             "Culture":  "ru-RU",
+                             "UICulture":  "ru-RU",
+                             "TimeZone":  "Russian Standard Time",
+                             "InputEncoding":  "cp866",
+                             "OutputEncoding":  "cp866"
+                         },
+    "Tools":  {
+                  "Git":  {
+                              "Found":  true,
+                              "Path":  "C:\\Program Files\\Git\\cmd\\git.exe",
+                              "Version":  "git version 2.54.0.windows.1"
+                          },
+                  "CMake":  {
+                                "Found":  true,
+                                "Path":  "C:\\toolchain\\CMake\\bin\\cmake.exe",
+                                "Version":  "cmake version 4.4.0-rc1\r\n\r\nCMake suite maintained and supported by Kitware (kitware.com/cmake)."
+                            },
+                  "Ninja":  {
+                                "Found":  true,
+                                "Path":  "C:\\toolchain\\Ninja\\ninja.exe",
+                                "Version":  "1.13.2"
+                            },
+                  "ArmGcc":  {
+                                 "Found":  true,
+                                 "Path":  "C:\\toolchain\\arm-none-eabi-gcc\\bin\\arm-none-eabi-gcc.exe",
+                                 "Version":  "arm-none-eabi-gcc.exe (xPack GNU Arm Embedded GCC x86_64) 15.2.1 20251203\r\nCopyright (C) 2025 Free Software Foundation, Inc.\r\nThis is free software; see the source for copying conditions.  There is NO\r\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
+                             },
+                  "ArmGpp":  {
+                                 "Found":  true,
+                                 "Path":  "C:\\toolchain\\arm-none-eabi-gcc\\bin\\arm-none-eabi-g++.exe",
+                                 "Version":  "arm-none-eabi-g++.exe (xPack GNU Arm Embedded GCC x86_64) 15.2.1 20251203\r\nCopyright (C) 2025 Free Software Foundation, Inc.\r\nThis is free software; see the source for copying conditions.  There is NO\r\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
+                             },
+                  "ArmGdb":  {
+                                 "Found":  true,
+                                 "Path":  "C:\\toolchain\\arm-none-eabi-gcc\\bin\\arm-none-eabi-gdb.exe",
+                                 "Version":  "GNU gdb (xPack GNU Arm Embedded GCC x86_64) 16.3.90.20250906-git\r\nCopyright (C) 2024 Free Software Foundation, Inc.\r\nLicense GPLv3+: GNU GPL version 3 or later \u003chttp://gnu.org/licenses/gpl.html\u003e\r\nThis is free software: you are free to change and redistribute it.\r\nThere is NO WARRANTY, to the extent permitted by law."
+                             },
+                  "ArmSize":  {
+                                  "Found":  true,
+                                  "Path":  "C:\\toolchain\\arm-none-eabi-gcc\\bin\\arm-none-eabi-size.exe",
+                                  "Version":  "GNU size (xPack GNU Arm Embedded GCC x86_64) 2.45.1.20251203\r\nCopyright (C) 2025 Free Software Foundation, Inc.\r\nThis program is free software; you may redistribute it under the terms of\r\nthe GNU General Public License version 3 or (at your option) any later version.\r\nThis program has absolutely no warranty."
+                              },
+                  "ArmObjcopy":  {
+                                     "Found":  true,
+                                     "Path":  "C:\\toolchain\\arm-none-eabi-gcc\\bin\\arm-none-eabi-objcopy.exe",
+                                     "Version":  "GNU objcopy (xPack GNU Arm Embedded GCC x86_64) 2.45.1.20251203\r\nCopyright (C) 2025 Free Software Foundation, Inc.\r\nThis program is free software; you may redistribute it under the terms of\r\nthe GNU General Public License version 3 or (at your option) any later version.\r\nThis program has absolutely no warranty."
+                                 },
+                  "VSCode":  {
+                                 "Found":  true,
+                                 "Path":  "C:\\Users\\TarasK\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code.cmd",
+                                 "Version":  "1.130.0\r\n1b6a188127eeaf9194f945eb6eb89a657e93c54c\r\nx64"
+                             },
+                  "STM32CubeProgrammer":  {
+                                              "Found":  false,
+                                              "Path":  null,
+                                              "Version":  "NOT FOUND"
+                                          },
+                  "StLinkGdbServer":  {
+                                          "Found":  false,
+                                          "Path":  null,
+                                          "Version":  "NOT FOUND"
+                                      },
+                  "OpenOcd":  {
+                                  "Found":  true,
+                                  "Path":  "C:\\toolchain\\xpack-openocd-0.12.0-7\\bin\\openocd.exe",
+                                  "Version":  "VERSION COMMAND FAILED: xPack Open On-Chip Debugger 0.12.0+dev-02228-ge5888bda3-dirty (2025-10-04-22:44)"
+                              }
+              },
+    "Repository":  {
+                       "IsGitRepository":  true,
+                       "Root":  "D:/Projects/embedded_full_cycle_course",
+                       "Branch":  "main",
+                       "Commit":  "HEAD",
+                       "Status":  "?? .gitignore\r\n?? README.md\r\n?? docs/\r\n?? embedded_full_cycle_course.code-workspace\r\n?? tools/"
+                   }
+}
