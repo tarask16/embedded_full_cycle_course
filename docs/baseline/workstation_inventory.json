@@ -1,5 +1,5 @@
 ﻿{
-    "CapturedAt":  "2026-07-26T17:29:13+03:00",
+    "CapturedAt":  "2026-07-26T18:14:47+03:00",
     "OperatingSystem":  {
                             "Name":  "Майкрософт Windows 11 Pro для рабочих станций",
                             "Version":  "10.0.26200",
@@ -89,7 +89,7 @@
                        "IsGitRepository":  true,
                        "Root":  "D:/Projects/embedded_full_cycle_course",
                        "Branch":  "main",
-                       "Commit":  "HEAD",
-                       "Status":  "?? .gitignore\r\n?? README.md\r\n?? docs/\r\n?? embedded_full_cycle_course.code-workspace\r\n?? tools/"
+                       "Commit":  "50d6358dd4552a764d26b3f0d3ddc6a538164a2a",
+                       "Status":  ""
                    }
 }

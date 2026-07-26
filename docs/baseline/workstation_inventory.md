@@ -1,6 +1,6 @@
 ﻿# Workstation inventory
 
-Дата фиксации: 2026-07-26T17:29:13+03:00
+Дата фиксации: 2026-07-26T18:14:47+03:00
 
 ## Операционная система
 
@@ -144,14 +144,10 @@ VERSION COMMAND FAILED: xPack Open On-Chip Debugger 0.12.0+dev-02228-ge5888bda3-
 - Git-репозиторий: True
 - Корень: D:/Projects/embedded_full_cycle_course
 - Ветка: main
-- Commit: HEAD
+- Commit: 50d6358dd4552a764d26b3f0d3ddc6a538164a2a
 
 ### Рабочее дерево
 
 ```text
-?? .gitignore
-?? README.md
-?? docs/
-?? embedded_full_cycle_course.code-workspace
-?? tools/
+clean
 ```
