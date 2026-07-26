@@ -1,5 +1,5 @@
 ﻿{
-    "CapturedAt":  "2026-07-26T18:42:13+03:00",
+    "CapturedAt":  "2026-07-26T18:57:11+03:00",
     "OperatingSystem":  {
                             "Name":  "Майкрософт Windows 11 Pro для рабочих станций",
                             "Version":  "10.0.26200",
@@ -70,9 +70,9 @@
                                  "Version":  "1.130.0\r\n1b6a188127eeaf9194f945eb6eb89a657e93c54c\r\nx64"
                              },
                   "STM32CubeProgrammer":  {
-                                              "Found":  false,
-                                              "Path":  null,
-                                              "Version":  "NOT FOUND"
+                                              "Found":  true,
+                                              "Path":  "C:\\Program Files\\STMicroelectronics\\STM32Cube\\STM32CubeProgrammer\\bin\\STM32_Programmer_CLI.exe",
+                                              "Version":  "-------------------------------------------------------------------\r\n                       STM32CubeProgrammer v2.23.0                  \r\n      -------------------------------------------------------------------\r\n\r\nSTM32CubeProgrammer version: 2.23.0"
                                           },
                   "StLinkGdbServer":  {
                                           "Found":  false,
@@ -89,7 +89,7 @@
                        "IsGitRepository":  true,
                        "Root":  "D:/Projects/embedded_full_cycle_course",
                        "Branch":  "main",
-                       "Commit":  "9342975d6d755d9eaa2a3dcd08dd97998839faa2",
+                       "Commit":  "162eb4711045dc48755c386dc9a29fcc1e0c781a",
                        "Status":  "M docs/baseline/workstation_inventory.md"
                    }
 }

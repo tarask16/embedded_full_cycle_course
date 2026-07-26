@@ -1,6 +1,6 @@
 ﻿# Workstation inventory
 
-Дата фиксации: 2026-07-26T18:42:13+03:00
+Дата фиксации: 2026-07-26T18:57:11+03:00
 
 ## Операционная система
 
@@ -39,7 +39,7 @@
 | ArmSize | Да | C:\toolchain\arm-none-eabi-gcc\bin\arm-none-eabi-size.exe |
 | ArmObjcopy | Да | C:\toolchain\arm-none-eabi-gcc\bin\arm-none-eabi-objcopy.exe |
 | VSCode | Да | C:\Users\TarasK\AppData\Local\Programs\Microsoft VS Code\bin\code.cmd |
-| STM32CubeProgrammer | Нет | - |
+| STM32CubeProgrammer | Да | C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeProgrammer\bin\STM32_Programmer_CLI.exe |
 | StLinkGdbServer | Нет | - |
 | OpenOcd | Да | C:\toolchain\xpack-openocd-0.12.0-7\bin\openocd.exe |
 
@@ -124,7 +124,11 @@ x64
 ### STM32CubeProgrammer
 
 ```text
-NOT FOUND
+-------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+STM32CubeProgrammer version: 2.23.0
 ```
 
 ### StLinkGdbServer
@@ -144,7 +148,7 @@ VERSION COMMAND FAILED: xPack Open On-Chip Debugger 0.12.0+dev-02228-ge5888bda3-
 - Git-репозиторий: True
 - Корень: D:/Projects/embedded_full_cycle_course
 - Ветка: main
-- Commit: 9342975d6d755d9eaa2a3dcd08dd97998839faa2
+- Commit: 162eb4711045dc48755c386dc9a29fcc1e0c781a
 
 ### Рабочее дерево
 
