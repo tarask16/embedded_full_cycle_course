@@ -1,6 +1,6 @@
 ﻿# Workstation inventory
 
-Дата фиксации: 2026-07-26T18:14:47+03:00
+Дата фиксации: 2026-07-26T18:42:13+03:00
 
 ## Операционная система
 
@@ -144,10 +144,31 @@ VERSION COMMAND FAILED: xPack Open On-Chip Debugger 0.12.0+dev-02228-ge5888bda3-
 - Git-репозиторий: True
 - Корень: D:/Projects/embedded_full_cycle_course
 - Ветка: main
-- Commit: 50d6358dd4552a764d26b3f0d3ddc6a538164a2a
+- Commit: 9342975d6d755d9eaa2a3dcd08dd97998839faa2
 
 ### Рабочее дерево
 
 ```text
-clean
+M docs/baseline/workstation_inventory.md
 ```
+# Target hardware
+
+- Board: WeAct Studio STM32H743VIT6 DevBoard
+- MCU: STM32H743VIT6
+- PCB revision: unknown
+- Debug probe: external ST-Link V2
+- Debug interface: SWD
+- Board status: operational
+
+## Available documentation
+
+- schematic;
+- STM32H743VI datasheet;
+- STM32H743 reference manual;
+- board user manual.
+
+## Baseline limitation
+
+Аппаратная ревизия платы на момент формирования baseline не установлена.
+До аппаратно-зависимых лабораторных работ необходимо проверить
+маркировку PCB и соответствие доступной принципиальной схеме.

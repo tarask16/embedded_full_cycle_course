@@ -1,5 +1,5 @@
 ﻿{
-    "CapturedAt":  "2026-07-26T18:14:47+03:00",
+    "CapturedAt":  "2026-07-26T18:42:13+03:00",
     "OperatingSystem":  {
                             "Name":  "Майкрософт Windows 11 Pro для рабочих станций",
                             "Version":  "10.0.26200",
@@ -89,7 +89,7 @@
                        "IsGitRepository":  true,
                        "Root":  "D:/Projects/embedded_full_cycle_course",
                        "Branch":  "main",
-                       "Commit":  "50d6358dd4552a764d26b3f0d3ddc6a538164a2a",
-                       "Status":  ""
+                       "Commit":  "9342975d6d755d9eaa2a3dcd08dd97998839faa2",
+                       "Status":  "M docs/baseline/workstation_inventory.md"
                    }
 }
