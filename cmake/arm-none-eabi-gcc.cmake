@@ -1,0 +1,30 @@
+set(CMAKE_SYSTEM_NAME Generic)
+set(CMAKE_SYSTEM_PROCESSOR arm)
+
+set(TOOLCHAIN_PREFIX arm-none-eabi-)
+
+find_program(
+    CMAKE_C_COMPILER
+    NAMES ${TOOLCHAIN_PREFIX}gcc
+    REQUIRED
+)
+
+find_program(
+    CMAKE_ASM_COMPILER
+    NAMES ${TOOLCHAIN_PREFIX}gcc
+    REQUIRED
+)
+
+find_program(
+    CMAKE_OBJCOPY
+    NAMES ${TOOLCHAIN_PREFIX}objcopy
+    REQUIRED
+)
+
+find_program(
+    CMAKE_SIZE
+    NAMES ${TOOLCHAIN_PREFIX}size
+    REQUIRED
+)
+
+set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)

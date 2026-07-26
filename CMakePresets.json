@@ -1,0 +1,21 @@
+{
+  "version": 6,
+  "configurePresets": [
+    {
+      "name": "target-debug",
+      "displayName": "STM32H743 target Debug",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/target-debug",
+      "toolchainFile": "${sourceDir}/cmake/arm-none-eabi-gcc.cmake",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "target-debug",
+      "configurePreset": "target-debug"
+    }
+  ]
+}
