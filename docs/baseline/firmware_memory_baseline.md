@@ -62,22 +62,22 @@ Limitations:
 ```text
    text    data     bss     dec     hex filename
     212       4     260     476     1dc firmware.elf
-
+```
     
 ## 6. Добавить адреса секций
 
-```markdown
-## Section addresses
 
+## Section addresses
+```markdown
 | Section | VMA | LMA | Size, bytes |
 |---|---:|---:|---:|
 | `.isr_vector` | `0x08000000` | `0x08000000` | 64 |
 | `.text` | `0x08000040` | `0x08000040` | 148 |
 | `.data` | `0x20000000` | `0x080000D4` | 4 |
 | `.bss` | `0x20000004` | not loaded | 260 |
-
+```
 ## Linker symbols
-
+```markdown
 | Symbol | Address | Meaning |
 |---|---:|---|
 | `_sidata` | `0x080000D4` | `.data` load address |
@@ -87,7 +87,7 @@ Limitations:
 | `_ebss` | `0x20000108` | `.bss` end |
 | `_stack_limit` | `0x2001F000` | lower reserved stack boundary |
 | `_estack` | `0x20020000` | initial main stack pointer |
-
+```
 ## Conclusions
 
 - Minimal STM32H743 target firmware builds reproducibly with zero warnings.
