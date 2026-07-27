@@ -9,7 +9,8 @@ and tested natively on Windows independently of the STM32 target.
 
 - Date: 2026-07-27
 - Repository branch: `main`
-- Base commit before lesson 0.4 commit: `<BASE_COMMIT>`
+- Base commit before lesson 0.4 commit: `cae4588ccd7c58f9c8a73b391a4a383e548e928a`
+- Baseline report commit: Добавлена Host сборка и CTest
 - Operating system: Windows
 - Host compiler: MSYS2 UCRT64 GCC 16.1.0
 - Host target: `x86_64-w64-mingw32`
@@ -113,3 +114,13 @@ ctest --preset host-release --verbose
 
 cmake --preset target-debug
 cmake --build --preset target-debug --clean-first
+
+## Limitations
+
+The checksum implementation is intentionally minimal and is not a
+cryptographic checksum.
+Invalid input data == NULL && size > 0 is outside the function contract.
+Host tests do not validate MCU registers, startup code, interrupts,
+timing or peripheral behaviour.
+Full NRST-release-to-main latency remains deferred due to the current
+lack of hardware reset access and measurement equipment.
