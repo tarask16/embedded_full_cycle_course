@@ -12,6 +12,12 @@ add_executable(
     startup/startup_stm32h743xx.s
 )
 
+target_link_libraries(
+    ${TARGET_NAME}
+    PRIVATE
+        efc_core
+)
+
 set_target_properties(
     ${TARGET_NAME}
     PROPERTIES
@@ -51,6 +57,34 @@ target_compile_options(
             -Wconversion
             -Wsign-conversion
         >
+
+        $<$<CONFIG:Debug>:
+            -Og
+            -g3
+        >
+
+        $<$<CONFIG:Release>:
+            -O2
+            -g1
+        >
+)
+
+target_compile_options(
+    efc_core
+    PRIVATE
+        -mcpu=cortex-m7
+        -mthumb
+        -mfpu=fpv5-d16
+        -mfloat-abi=hard
+
+        -ffreestanding
+        -ffunction-sections
+        -fdata-sections
+        -fstack-usage
+        -fno-common
+        -fno-builtin
+        -fno-unwind-tables
+        -fno-asynchronous-unwind-tables
 
         $<$<CONFIG:Debug>:
             -Og

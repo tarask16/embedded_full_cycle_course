@@ -1,4 +1,4 @@
-#include <stddef.h>
+#include "efc/checksum.h"
 #include <stdint.h>
 
 #define DWT_CYCCNT_ADDRESS (0xE0001004UL)
@@ -13,24 +13,12 @@ static const uint8_t g_signature[] = {
     'L', 'I', 'N', 'E', '-', '0', '1'
 };
 
-static uint32_t signature_checksum(void)
-{
-    uint32_t sum = UINT32_C(0);
-
-    for (size_t index = 0; index < sizeof(g_signature); ++index) {
-        sum += (uint32_t)g_signature[index];
-    }
-
-    return sum;
-}
-
 int main(void)
 {
     g_reset_handler_to_main_cycles =
         *(volatile const uint32_t *)DWT_CYCCNT_ADDRESS;
 
-    g_boot_counter =
-        g_initialized_value ^ signature_checksum(); 
+    g_boot_counter = g_initialized_value ^ efc_checksum_u8(g_signature, sizeof(g_signature));
 
     g_work_buffer[0] =
         (uint8_t)(g_boot_counter & UINT32_C(0xFF));
