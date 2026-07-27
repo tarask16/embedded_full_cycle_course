@@ -46,6 +46,26 @@ g_pfnVectors:
 .thumb_func
 
 Reset_Handler:
+    /* Разрешить доступ к DWT. */
+    ldr     r0, =0xE000EDFC
+    ldr     r1, [r0]
+    ldr     r2, =0x01000000
+    orrs    r1, r1, r2
+    str     r1, [r0]
+
+    /* Обнулить DWT_CYCCNT. */
+    ldr     r0, =0xE0001004
+    movs    r1, #0
+    str     r1, [r0]
+
+    /* Запустить счётчик тактов. */
+    ldr     r0, =0xE0001000
+    ldr     r1, [r0]
+    movs    r2, #1
+    orrs    r1, r1, r2
+    str     r1, [r0]
+
+    /* Далее существующий код инициализации .data и .bss. */
     ldr r0, =_sidata
     ldr r1, =_sdata
     ldr r2, =_edata
