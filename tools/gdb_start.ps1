@@ -1,0 +1,1 @@
+arm-none-eabi-gdb D:/Projects/embedded_full_cycle_course/build/target-debug/artifacts/firmware.elf
