@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "name": "STM32H743 target",
+            "compilerPath": "C:/toolchain/arm-none-eabi-gcc/bin/arm-none-eabi-gcc.exe",
+            "compileCommands": [
+                "${workspaceFolder}/build/target-debug/compile_commands.json"
+            ],
+            "intelliSenseMode": "windows-gcc-arm",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4,
+    "enableConfigurationSquiggles": true
+}
