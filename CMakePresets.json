@@ -13,6 +13,18 @@
       }
     },
     {
+      "name": "target-release",
+      "displayName": "STM32H743 target Release",
+      "inherits": "target-debug",
+      "binaryDir": "${sourceDir}/build/target-release",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
+        "CMAKE_C_FLAGS_RELEASE": "-DNDEBUG",
+        "CMAKE_ASM_FLAGS_RELEASE": ""
+      }
+    },
+    {
       "name": "host-base",
       "hidden": true,
       "generator": "Ninja",
@@ -48,6 +60,10 @@
     {
       "name": "target-debug",
       "configurePreset": "target-debug"
+    },
+    {
+      "name": "target-release",
+      "configurePreset": "target-release"
     },
     {
       "name": "host-debug",
