@@ -1,0 +1,12 @@
+[1/1] Cleaning all built files...
+Cleaning... 5 files.
+[1/5] Building ASM object firmware/target/CMakeFiles/firmware.dir/startup/startup_stm32h743xx.s.obj
+[2/5] Building C object firmware/common/CMakeFiles/efc_core.dir/src/checksum.c.obj
+[3/5] Building C object firmware/target/CMakeFiles/firmware.dir/src/main.c.obj
+[4/5] Linking C static library firmware\common\libefc_core.a
+[5/5] Linking C executable artifacts\firmware.elf; Generating HEX/BIN and printing firmware size
+Memory region         Used Size  Region Size  %age Used
+           FLASH:         280 B         2 MB      0.01%
+         DTCMRAM:         268 B       128 KB      0.20%
+   text	   data	    bss	    dec	    hex	filename
+    276	      4	    264	    544	    220	D:/Projects/embedded_full_cycle_course/build/target-release/artifacts/firmware.elf
